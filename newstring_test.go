@@ -8,6 +8,7 @@ func Test(t *testing.T) {
 	}{
 		{"Eralp", "plarE"},
 		{"Ahmet", "temhA"},
+		{"123", "321"},
 	}
 	for _, f := range texts {
 		val := Reverse(f.key)
